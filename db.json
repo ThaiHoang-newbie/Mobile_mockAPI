@@ -1,18 +1,61 @@
 {
   "cart": [
     {
-      "id": 1,
-      "title": "Women's T-Shirt",
-      "price": 24.99,
-      "image": "https://previews.123rf.com/images/puhhha/puhhha1802/puhhha180200408/95435988-women-fashion-beautiful-girl-in-stylish-clothes-portrait-of-smiling-young-fashionable-woman-with.jpg",
-      "type": "woman"
-    },
-    {
-      "id": 2,
-      "title": "Women's Dress",
-      "price": 59.99,
-      "image": "https://i5.walmartimages.com/asr/26acca18-7db1-44c6-ab1d-28a7197310e7.7c2930854f05d2fac1b72499a2f8d2a5.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
-      "type": "woman"
+      "item1": {
+        "source": {
+          "image_url": "../../res/image/food1.png"
+        },
+        "text": {
+          "food_name": "Herbal Pancake",
+          "restaurant": "Wijie Resto",
+          "price": 7,
+          "quantity": 1
+        }
+      },
+      "item2": {
+        "source": {
+          "image_url": "../../res/image/food1.png"
+        },
+        "text": {
+          "food_name": "Spicy Noodles",
+          "restaurant": "Taste of Asia",
+          "price": 8,
+          "quantity": 1
+        }
+      },
+      "item3": {
+        "source": {
+          "image_url": "../../res/image/food1.png"
+        },
+        "text": {
+          "food_name": "Mediterranean Salad",
+          "restaurant": "Healthy Bites",
+          "price": 6,
+          "quantity": 1
+        }
+      },
+      "item4": {
+        "source": {
+          "image_url": "../../res/image/food1.png"
+        },
+        "text": {
+          "food_name": "Cheeseburger",
+          "restaurant": "Classic Cookie",
+          "price": 9,
+          "quantity": 1
+        }
+      },
+      "item5": {
+        "source": {
+          "image_url": "../../res/image/food1.png"
+        },
+        "text": {
+          "food_name": "Chocolate Cake",
+          "restaurant": "Sweet Delights",
+          "price": 6,
+          "quantity": 1
+        }
+      }
     }
   ],
   "shop": [
