@@ -1,9 +1,10 @@
 {
   "cart": [
     {
-      "item1": {
+      "res1": {
+        "id": 1,
         "source": {
-          "image_url": "../../res/image/food1.png"
+          "image_url": "food1.png"
         },
         "text": {
           "food_name": "Herbal Pancake",
@@ -13,8 +14,9 @@
         }
       },
       "item2": {
+        "id": 2,
         "source": {
-          "image_url": "../../res/image/food1.png"
+          "image_url": "food1.png"
         },
         "text": {
           "food_name": "Spicy Noodles",
@@ -22,56 +24,195 @@
           "price": 8,
           "quantity": 1
         }
-      },
-      "item3": {
-        "source": {
-          "image_url": "../../res/image/food1.png"
-        },
-        "text": {
-          "food_name": "Mediterranean Salad",
-          "restaurant": "Healthy Bites",
-          "price": 6,
-          "quantity": 1
-        }
-      },
-      "item4": {
-        "source": {
-          "image_url": "../../res/image/food1.png"
-        },
-        "text": {
-          "food_name": "Cheeseburger",
-          "restaurant": "Classic Cookie",
-          "price": 9,
-          "quantity": 1
-        }
-      },
-      "item5": {
-        "source": {
-          "image_url": "../../res/image/food1.png"
-        },
-        "text": {
-          "food_name": "Chocolate Cake",
-          "restaurant": "Sweet Delights",
-          "price": 6,
-          "quantity": 1
-        }
       }
     }
   ],
-  "shop": [
+  "restaurant": [
     {
       "id": 1,
-      "title": "Women's T-Shirt",
-      "price": 24.99,
-      "image": "https://previews.123rf.com/images/puhhha/puhhha1802/puhhha180200408/95435988-women-fashion-beautiful-girl-in-stylish-clothes-portrait-of-smiling-young-fashionable-woman-with.jpg",
-      "type": "woman"
+      "title": "Vegan Resto",
+      "time": 8,
+      "image": "restaurant1.png",
+      "distance": 16,
+      "picture": "res1.png"
     },
     {
       "id": 2,
-      "title": "Women's Dress",
-      "price": 59.99,
-      "image": "https://i5.walmartimages.com/asr/26acca18-7db1-44c6-ab1d-28a7197310e7.7c2930854f05d2fac1b72499a2f8d2a5.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
-      "type": "woman"
+      "title": "Healthy Food",
+      "time": 8,
+      "image": "restaurant1.png",
+      "distance": 16,
+      "picture": "res1.png"
+    },
+    {
+      "id": 3,
+      "title": "Smart Resto",
+      "time": 8,
+      "image": "restaurant1.png",
+      "distance": 16,
+      "picture": "res1.png"
+    },
+    {
+      "id": 4,
+      "title": "Good Food",
+      "time": 8,
+      "image": "restaurant1.png",
+      "distance": 16,
+      "picture": "item1.png"
+    },
+    {
+      "id": 5,
+      "title": "Beef Resto",
+      "time": 8,
+      "image": "restaurant1.png",
+      "distance": 16,
+      "picture": "res1.png"
+    },
+    {
+      "id": 6,
+      "title": "Hotpot",
+      "time": 8,
+      "image": "restaurant1.png",
+      "distance": 16,
+      "picture": "res1.png"
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "image_url": "food1.png",
+      "food_name": "Herbal Pancake",
+      "restaurant": "Wijie Resto",
+      "price": 7,
+      "quantity": 1,
+      "picture": "item1.png"
+    },
+    {
+      "id": 2,
+      "image_url": "food1.png",
+      "food_name": "Spicy Noodles",
+      "restaurant": "Taste of Asia",
+      "price": 8,
+      "quantity": 1,
+      "picture": "item1.png"
+
+    },
+    {
+      "id": 3,
+
+      "image_url": "food1.png",
+      "food_name": "Mediterranean Salad",
+      "restaurant": "Healthy Bites",
+      "price": 6,
+      "quantity": 1,
+      "picture": "item1.png"
+
+    },
+    {
+      "id": 4,
+
+      "image_url": "food1.png",
+      "food_name": "Cheeseburger",
+      "restaurant": "Classic Cookie",
+      "price": 9,
+      "quantity": 1,
+      "picture": "item1.png"
+
+    },
+    {
+      "id": 5,
+
+      "image_url": "food1.png",
+      "food_name": "Chocolate Cake",
+      "restaurant": "Sweet Delights",
+      "price": 6,
+      "quantity": 1,
+      "picture": "item1.png"
+
+    },
+    {
+      "id": 6,
+
+      "image_url": "food1.png",
+      "food_name": "Strawberry Cake",
+      "restaurant": "Sweet Delights",
+      "price": 6,
+      "quantity": 1,
+      "picture": "item1.png"
+
+    },
+    {
+      "id": 7,
+
+      "image_url": "food1.png",
+      "food_name": "Passion Fruit Cake",
+      "restaurant": "Sweet Delights",
+      "price": 6,
+      "quantity": 1
+      ,
+      "picture": "item1.png"
+
+    },
+    {
+      "id": 8,
+      "image_url": "food1.png",
+      "food_name": "Tiramisu",
+      "restaurant": "Sweet Delights",
+      "price": 6,
+      "quantity": 1,
+      "picture": "item1.png"
+
+    },
+    {
+      "id": 9,
+
+      "image_url": "food1.png",
+      "food_name": "Lobster",
+      "restaurant": "Sweet Delights",
+      "price": 6,
+      "quantity": 1,
+      "picture": "item1.png"
+
+    },
+    {
+      "id": 10,
+
+      "image_url": "food1.png",
+      "food_name": "Chocolate Cake",
+      "restaurant": "Sweet Delights",
+      "price": 6,
+      "quantity": 1,
+      "picture": "item1.png"
+
+    }
+  ],
+  "restaurant_menu": [
+    {
+      "id": 1,
+      "restaurant": 1,
+      "foods": [4, 2, 7, 1, 9]
+    },
+    {
+      "id": 2,
+
+      "restaurant": 2,
+      "foods": [5, 6, 6, 1, 9]
+    },
+    {
+      "id": 3,
+
+      "restaurant": 3,
+      "foods": [1, 8, 7, 3, 9]
+    },
+    {
+      "id": 4,
+      "restaurant": 4,
+      "foods": [2, 10, 3, 4, 9]
+    },
+    {
+      "id": 5,
+      "restaurant": 5,
+      "foods": [4, 2, 10, 7, 8]
     }
   ]
 }
